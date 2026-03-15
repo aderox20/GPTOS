@@ -5,7 +5,7 @@ GPTOS is a minimal Linux-based operating system built from scratch. You can eith
 ---
 
 ## Features
-
+- WARNING: Most of this features are not in the iso or build iso because its still on prealpha/alpha
 - Minimal Linux kernel with BusyBox as the userland.
 - Core GNU utilities via compiled coreutils.
 - Package management via Alpine's `apk-tools`.
