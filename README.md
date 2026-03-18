@@ -1,6 +1,6 @@
 # GPTOS
 
-GPTOS is a minimal Linux-based operating system built from scratch with the LLM ChatGPT . You can either **build it from source** using the provided script or **download the pre-built ISO** directly from this repository.
+GPTOS is a minimal Linux-based operating system built from scratch completely with the LLM ChatGPT (some troubleshooting may be done by me). You can either **build it from source** using the provided script or **download the pre-built ISO** directly from this repository.
 
 ---
 
