@@ -11,7 +11,7 @@ GPTOS is a minimal Linux-based operating system built from scratch completely wi
 - Package management via Alpine's `apk-tools`.
 - Works in QEMU and real hardware (x86_64).
 - Custom init and initramfs setup for lightweight boot.
-
+(btw dont use this in real hardware pls)
 ---
 
 ## Build from Scratch
