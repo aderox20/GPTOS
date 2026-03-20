@@ -18,7 +18,7 @@ GPTOS is a minimal Linux-based operating system built from scratch completely wi
 
 GPTOS uses a separate package repository for the `gpt` package manager:
 
-👉 https://github.com/aderox20/gptos-repo
+👉 https://github.com/aderox20/gptpm-repo
 
 This repository contains:
 - Prebuilt packages (`.tar.xz`)
