@@ -14,6 +14,27 @@ GPTOS is a minimal Linux-based operating system built from scratch completely wi
 - (btw dont use this in real hardware pls)
 ---
 
+## Package Repository
+
+GPTOS uses a separate package repository for the `gpt` package manager:
+
+👉 https://github.com/YOUR_USERNAME/gptos-repo
+
+This repository contains:
+- Prebuilt packages (`.tar.xz`)
+- The package index (`index.json`)
+- Files used by the `gpt` package manager
+
+---
+
+### Using the package manager
+
+Inside GPTOS:
+
+```bash
+gpt install neovim
+gpt install < package >
+gpt list
 ## Build from Scratch
 
 Run the included script `build_fromscratch_gptos.sh`:
