@@ -11,7 +11,7 @@ GPTOS is a minimal Linux-based operating system built from scratch completely wi
 - Package management via vibe coded package manager `gpt`.
 - Works in QEMU and real hardware (x86_64).
 - Custom init and initramfs setup for lightweight boot.
-- (btw dont use this in real hardware pls)
+- Please DO NOT use this on real hardware. This OS is just experimental
 ---
 
 ## Package Repository
