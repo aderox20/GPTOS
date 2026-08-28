@@ -5,7 +5,7 @@ GPTOS is a minimal Linux-based operating system built from scratch completely by
 ---
 
 ## Features
-- WARNING: Most of this features are not in the iso or build iso because its still on prealpha/alpha
+- WARNING: Most of these features are not in the ISO or build ISO because its still on prealpha/alpha
 - Minimal Linux kernel with BusyBox as the userland.
 - Core GNU utilities via compiled coreutils.
 - Package management via vibe coded package manager `gpt`.
