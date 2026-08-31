@@ -34,7 +34,8 @@ Inside GPTOS:
 ```bash
 gpt install neovim
 gpt install < package >
-gpt list```
+gpt list
+```
 
 ## Build from Scratch
 
