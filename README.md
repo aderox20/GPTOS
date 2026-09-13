@@ -1,8 +1,8 @@
 # GPTOS
 
 GPTOS is a minimal Linux-based operating system built from scratch completely by the FREE TIER of the LLM ChatGPT by OpenAI (some troubleshooting may be done by me). You can either **build it from source** using the provided script or **download the pre-built ISO** directly from this repository.
-
----
+MIT license
+---MIT license
 
 ## Features
 - WARNING: Most of these features are not in the ISO or build ISO because its still on prealpha/alpha
@@ -14,14 +14,14 @@ GPTOS is a minimal Linux-based operating system built from scratch completely by
 - Please DO NOT use this on real hardware. This OS is just experimental
 ---
 
-## Package Repository
+## Package Manager
 
-GPTOS uses a separate package repository for the `gpt` package manager:
+GPTOS uses a vibe coded package manager called `gpt`:
 
-👉 https://github.com/aderox20/gptpm-repo
+Source Code 👉 GPTPM-REPO[https://github.com/aderox20/GPT-PackageManager]
 
 This repository contains:
-- Prebuilt packages (`.tar.xz`)
+- Prebuilt packages (`.gptp`)
 - The package index (`index.json`)
 - Files used by the `gpt` package manager
 
@@ -35,6 +35,7 @@ Inside GPTOS:
 gpt install neovim
 gpt install < package >
 gpt list
+gpt install -f <package.gptp>
 ```
 
 ## Build from Scratch
@@ -72,7 +73,7 @@ curl -LO https://github.com/Aderox20_dev/GPTOS/raw/main/gptos-0.0.1-x86_64.iso
 To test GPTOS in QEMU:
 
 ```bash
-qemu-system-x86_64 -cdrom gptos-0.0.1-x86_64.iso -m 2G -boot d
+qemu-system-x86_64 -cdrom gptos-x.x.x-x86_64.iso -m [ram amount you want] -boot d
 ```
 
 ---
