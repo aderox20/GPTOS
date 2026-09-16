@@ -2,6 +2,7 @@
 
 GPTOS is a minimal Linux-based operating system built from scratch completely by the FREE TIER of the LLM ChatGPT by OpenAI (some troubleshooting may be done by me). You can either **build it from source** using the provided script or **download the pre-built ISO** directly from this repository.
 MIT license
+
 [MIT License](https://github.com/aderox20/GPTOS/blob/main/LICENSE)
 
 ## Features
