@@ -86,6 +86,6 @@ Contributions are welcome! You can help by:
 
 ## License
 
-GPTOS is released under the MIT License. See the File
+GPTOS is released under the MIT License. See the
 [LICENSE](https://github.com/aderox20/GPTOS/blob/main/LICENSE)
  file for details.
