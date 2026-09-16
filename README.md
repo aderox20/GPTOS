@@ -17,12 +17,12 @@ MIT license
 ## Package Manager
 
 GPTOS uses a vibe coded package manager called `gpt`:
- [GPTPM Source Code](https://github.com/aderox20/GPT-PackageManager)
+ 
+[GPTPM Source Code](https://github.com/aderox20/GPT-PackageManager)
 
 This repository contains:
-- Prebuilt packages (`.gptp`)
-- The package index (`index.json`)
-- Files used by the `gpt` package manager
+- GPTPM's Source Code
+- GPTPM's Structure
 
 ---
 
