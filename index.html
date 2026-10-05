@@ -13,8 +13,8 @@
     <nav>
       <a href="./">Home</a>
       <a href="#about">About</a>
-      <a href="#install">Install</a>
-      <a href="gpt/">GPT</a>
+      <a href="#features">Features</a>
+      <a href="#gpt">GPT</a>
       <a href="https://github.com/aderox20/GPTOS">GitHub</a>
     </nav>
   </div>
@@ -23,34 +23,45 @@
 <main class="wrap">
   <section class="intro">
     <h1>GPTOS</h1>
-    <p class="lead">An operating system made with ChatGPT by OpenAI, using the Free plan.</p>
-    <p>This project explores how far an operating system can be built through collaboration with an LLM, using ChatGPT Free as the primary development partner.</p>
-    <p><a class="button" href="https://github.com/aderox20/GPTOS">Source code</a> <a href="#install">Installation</a></p>
+    <p class="lead">A minimal Linux-based operating system built from scratch completely by the FREE TIER of the LLM ChatGPT by OpenAI.</p>
+    <p>Some troubleshooting may be done by me. The project is experimental and currently pre-alpha/alpha.</p>
+    <p><a class="button" href="https://github.com/aderox20/GPTOS">Source code</a></p>
   </section>
 
   <hr>
 
   <section id="about">
-    <h2>About GPTOS</h2>
-    <p>GPTOS is a Linux-based experimental operating system developed with ChatGPT by OpenAI on the Free plan.</p>
-    <p>The project covers the OS itself, its userspace, build system, initramfs, package manager, packages, and supporting tools. The goal is to build a real, usable software project with ChatGPT rather than simply use AI to generate an isolated example.</p>
-    <p>GPTOS is currently pre-alpha and intended for testing and experimentation.</p>
+    <h2>About</h2>
+    <p>GPTOS is a minimal Linux-based operating system built from scratch completely by the FREE TIER of ChatGPT by OpenAI. The idea is to build a real operating system with ChatGPT rather than simply use AI for an isolated example.</p>
+    <p>Most features are still not present in the ISO because GPTOS is in pre-alpha/alpha development.</p>
+    <p><strong>Do not use GPTOS on real hardware.</strong> It is experimental.</p>
   </section>
 
-  <section id="install">
-    <h2>Installation</h2>
-    <p>The easiest way to try GPTOS is with the pre-built x86_64 ISO.</p>
-    <pre><code>qemu-system-x86_64 -cdrom gptos-x.x.x-x86_64.iso -m 2048 -boot d</code></pre>
-    <p><a href="https://github.com/aderox20/GPTOS">Download and build instructions →</a></p>
+  <section id="features">
+    <h2>Features</h2>
+    <ul class="links">
+      <li>Minimal Linux kernel</li>
+      <li>GNU utilities such as Coreutils and Binutils</li>
+      <li>Vibe coded package management via <code>gpt</code></li>
+      <li>QEMU and x86_64 support</li>
+      <li>Custom init and initramfs setup for lightweight boot</li>
+    </ul>
+  </section>
+
+  <section id="gpt">
+    <h2>GPT Package Manager</h2>
+    <p>GPTOS uses a vibe coded package manager called <strong>gpt</strong>.</p>
+    <p><a href="https://github.com/aderox20/GPT-PackageManager">GPT-PackageManager source code →</a></p>
+    <pre><code>gpt install neovim
+gpt install &lt; package &gt;
+gpt list
+gpt install -f &lt;package.gptp&gt;</code></pre>
   </section>
 
   <section>
-    <h2>GPT Package Manager</h2>
-    <p><strong>gpt</strong> is the package manager used by GPTOS. Packages use the <code>.gptp</code> format.</p>
-    <pre><code>gpt install &lt;package&gt;
-gpt list
-gpt install -f &lt;package.gptp&gt;</code></pre>
-    <p><a href="gpt/">Read about GPT →</a> · <a href="https://github.com/aderox20/GPT-PackageManager">GPTPM source →</a></p>
+    <h2>Current status</h2>
+    <p>GPTOS is live as an experimental project. The build script currently does not work and only targets the old v0.1-prealpha state, so there is no installation process provided here for now.</p>
+    <p>The repository contains the source, documentation, and the current project files.</p>
   </section>
 
   <section>
