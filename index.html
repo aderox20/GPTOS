@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GPTOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="./">GPTOS</a>
+    <nav>
+      <a href="./">Home</a>
+      <a href="#about">About</a>
+      <a href="#install">Install</a>
+      <a href="gpt/">GPT</a>
+      <a href="https://github.com/aderox20/GPTOS">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1>GPTOS</h1>
+    <p class="lead">A small Linux-based operating system and package ecosystem.</p>
+    <p><a class="button" href="https://github.com/aderox20/GPTOS">Source code</a> <a href="#install">Installation</a></p>
+  </section>
+
+  <hr>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>GPTOS is an experimental operating system built around a minimal Linux userspace, a custom initramfs setup, and GPTPM.</p>
+    <p>It is currently in pre-alpha development and is intended for testing and experimentation rather than production hardware.</p>
+  </section>
+
+  <section id="install">
+    <h2>Installation</h2>
+    <p>The easiest way to try GPTOS is with the pre-built x86_64 ISO.</p>
+    <pre><code>qemu-system-x86_64 -cdrom gptos-x.x.x-x86_64.iso -m 2048 -boot d</code></pre>
+    <p><a href="https://github.com/aderox20/GPTOS">Download and build instructions →</a></p>
+  </section>
+
+  <section>
+    <h2>GPT Package Manager</h2>
+    <p><strong>gpt</strong> is the package manager used by GPTOS. Packages use the <code>.gptp</code> format.</p>
+    <pre><code>gpt install &lt;package&gt;
+gpt list
+gpt install -f &lt;package.gptp&gt;</code></pre>
+    <p><a href="gpt/">Read about GPT →</a> · <a href="https://github.com/aderox20/GPT-PackageManager">GPTPM source →</a></p>
+  </section>
+
+  <section>
+    <h2>Repositories</h2>
+    <ul class="links">
+      <li><a href="https://github.com/aderox20/GPTOS">GPTOS</a> — operating system</li>
+      <li><a href="https://github.com/aderox20/GPT-PackageManager">GPT-PackageManager</a> — package manager</li>
+      <li><a href="https://aderox20.github.io/gptpm-kernels/linux/v7.2.9">GPTPM kernels</a> — kernel index</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap">
+  <hr>
+  <p>GPTOS · <a href="https://github.com/aderox20/GPTOS">GitHub</a></p>
+</footer>
+</body>
+</html>
